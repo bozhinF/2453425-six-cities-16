@@ -14,6 +14,7 @@ export const sortCommentsByDate = (comments: Comments) => {
   return result;
 };
 
+
 export const sort = {
   [SortType.Popular]: (offers: Offers) => offers,
   [SortType.PriceHighToLow]: (offers: Offers) =>
